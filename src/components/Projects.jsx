@@ -133,24 +133,36 @@ const Projects = () => {
                                 >
                                     Portfolio Web
                                 </Heading>
-                                <Icon
-                                    as={AiFillGithub}
-                                    color={color}
-                                    w={5}
-                                    h={6}
-                                    _hover={{
-                                        color: colorHover,
-                                    }}
-                                />
-                                <Icon
-                                    as={AiOutlineLink}
-                                    color={color}
-                                    w={5}
-                                    h={6}
-                                    _hover={{
-                                        color: colorHover,
-                                    }}
-                                />
+                                <Link
+                                    href="https://github.com/jaimeAlorg/Portfolio"
+                                    _focus={{ outline: "none" }}
+                                    isExternal
+                                >
+                                    <Icon
+                                        as={AiFillGithub}
+                                        color={color}
+                                        w={5}
+                                        h={5}
+                                        _hover={{
+                                            color: colorHover,
+                                        }}
+                                    />
+                                </Link>
+                                <Link
+                                    href="jaimealvarez.cc"
+                                    _focus={{ outline: "none" }}
+                                    isExternal
+                                >
+                                    <Icon
+                                        as={AiOutlineLink}
+                                        color={color}
+                                        w={5}
+                                        h={6}
+                                        _hover={{
+                                            color: colorHover,
+                                        }}
+                                    />
+                                </Link>
                             </HStack>
                             <HStack spacing={2} pb="4px" pt="4px" size="sm">
                                 <Tag colorScheme="teal" size="sm">
