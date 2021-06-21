@@ -28,7 +28,7 @@ const Hero = () => {
                                 md: "150px",
                             }}
                         >
-                            <Image src={profile} alt="testo" />
+                            <Image src={profile} alt="Profile" />
                         </Box>
                         <Heading
                             fontWeight={600}
