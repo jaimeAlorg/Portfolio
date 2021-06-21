@@ -53,7 +53,7 @@ const Skills = () => {
                                 <ListItem>CSS</ListItem>
                                 <ListItem>SASS</ListItem>
                                 <ListItem>Python</ListItem>
-                                <ListItem>C++</ListItem>
+                                <ListItem>Dart</ListItem>
                             </List>
                         </VStack>
                         <VStack>
@@ -68,6 +68,8 @@ const Skills = () => {
                                 <ListItem>Redux</ListItem>
                                 <ListItem>NodeJS</ListItem>
                                 <ListItem>Express</ListItem>
+                                <ListItem>Chakra-UI</ListItem>
+                                <ListItem>Material-UI</ListItem>
                             </List>
                         </VStack>
                         <VStack>
@@ -94,6 +96,7 @@ const Skills = () => {
                                 <ListItem>Git</ListItem>
                                 <ListItem>VS Code</ListItem>
                                 <ListItem>Virtualization</ListItem>
+                                <ListItem>Figma</ListItem>
                             </List>
                         </VStack>
                     </SimpleGrid>
