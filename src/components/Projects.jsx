@@ -321,7 +321,7 @@ const Projects = () => {
                                 </Tag>
                             </HStack>
                             <Text>
-                                This webside is a demo of how a CRUD web
+                                This website is a demo of how a CRUD web
                                 application works. In this web the user is
                                 allowed to create, read, update and delete
                                 posts. This simple four operations are done in
